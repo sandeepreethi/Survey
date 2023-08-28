@@ -1,0 +1,107 @@
+{
+ "questions": [
+ {
+ "Id": 1,
+ "ControlType": "Label",
+ "Text": "Lets begin the Survey!",
+ "PageNumber": 1,
+ "answers": []
+ },
+ {
+ "Id": 2,
+ "ControlType": "TextBox",
+ "Text": "FirstName",
+ "PageNumber": 1,
+ "answers": []
+ },
+ {
+ "Id": 3,
+ "ControlType": "TextBox",
+ "Text": "LastName",
+ "PageNumber": 1,
+ "answers": []
+ },
+ {
+ "Id": 4,
+ "ControlType": "DatePicker",
+ "Text": "Date Of Birth",
+ "PageNumber": 1,
+ "answers": []
+ },
+ {
+ "Id": 5,
+ "ControlType": "TextBox",
+ "Text": "Email",
+ "PageNumber": 1,
+ "answers": []
+ },
+ {
+ "Id": 6,
+ "ControlType": "Label",
+ "Text": "Do you have any pets? ",
+ "PageNumber": 2,
+ "answers": [
+ {
+ "id": 1,
+ "text": "Yes",
+ "answerType": "RadioButton"
+ },
+ {
+ "id": 2,
+ "text": "No",
+ "answerType": "RadioButton"
+ }
+ ]
+ },
+ 
+ {
+ "Id": 7,
+ "ControlType": "Label",
+ "Text": "Are Dogs or Cats Better? ",
+ "PageNumber": 2,
+ "answers": [
+ {
+ "id": 1,
+ "text": "Dogs",
+ "answerType": "DropDown"
+ },
+ {
+ "id": 2,
+ "text": "Cats",
+ "answerType": "DropDown"
+ }
+ ]
+ },
+ {
+ "Id": 8,
+ "ControlType": "Label",
+ "Text": "Do you listen to music while you work?",
+ "PageNumber": 2,
+ "answers": [
+ {
+ "id": 1,
+ "text": "Yes",
+ "answerType": "RadioButton"
+ },
+ {
+ "id": 2,
+ "text": "No",
+ "answerType": "RadioButton"
+ }
+ ]
+ }
+ ],
+ "SupportedLanguages": [
+ {
+ "languageCode": "en-US",
+ "languageDescription": "English Language",
+ "defaultLanguage": true
+ },
+ {
+ "languageCode": "zh-CN",
+ "languageDescription": "Chinese (Mandarin)",
+ "defaultLanguage": false
+ }
+ ],
+ "Logo": "https://www.clienturl.com/logo.jpg"
+}

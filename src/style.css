@@ -1,0 +1,160 @@
+:root {
+  --main-color: #262253;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+  font-family: "calibri", sans-serif;
+    background-color: #80808029;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin:0;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+    width: 91%;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.company {
+  font-family: "calibri", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.8;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-color: white;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 550px;
+  padding: 150px 0 50px;
+}
+.dropdown{
+  font-family: "calibri", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.8;
+  border-radius: 2px;
+  background-color: white;
+  margin-bottom: 20px;
+  width: 190px;
+  margin-left: 150px;
+  margin-right: 2px;
+  height: 80px;
+}
+.option {
+  font-family: "calibri", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.8;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 550px;
+  
+}
+.logoSection{
+  text-align: center;
+}
+.section {
+  font-family: "calibri", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.8;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-color: white;
+    margin-bottom: 20px;
+    width: 600px;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+
+.section-head {
+    font-family: "Calibri", serif;
+    text-align: center;
+    border-bottom-width:1px;
+    border-bottom-color:gray;
+    color: var(--main-color);
+    border-bottom-style:solid;
+    font-size: 24px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-color:var(--main-color);
+    border-top-style:solid;
+
+    font-weight: 600;
+}
+
+.section-body {
+    font-family: "calibri", serif;
+    text-align: l;
+    font-size: 16px;
+    /* padding-bottom: 5px; */
+    padding: 30px 125px 40px 40px;
+}
+
+label{
+  color: var(--main-color);
+  text-align: left;
+}
+
+button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 0;
+    border-radius: 4px;
+    background-image: none;
+    border: 1px solid transparent;
+    font-family: "calibri", sans-serif;
+
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.counter {
+  border: 2px solid var(--main-color);
+  padding: 10px;
+}
+
+.metrics-head {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.metrics-body {
+  font-size: 15px;
+}
+
+@media(max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 91%;
+  }
+}
